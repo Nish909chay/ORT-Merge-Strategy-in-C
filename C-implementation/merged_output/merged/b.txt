@@ -1,0 +1,7 @@
+AUTO-MERGE FAILED
+<<<<<<< OURS
+
+=======
+edited by them
+
+>>>>>>> THEIRS
