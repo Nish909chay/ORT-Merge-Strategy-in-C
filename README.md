@@ -23,19 +23,19 @@ It compares content and file existence across all three trees, choosing the most
 ```
 ORT-Merge-Strategy-in-C
 ├── C-implementation/
-   ├── main.c            # Builds and merges trees, handles output
-   ├── tree.c            # Tree creation, merging, helpers
-   ├── tree.h            # Structs and function declarations
-   ├── file_utils.c      # File reading and writing logic
-   ├── file_utils.h
-   ├── base/             # Base version of files
-   │   ├── a.txt
-   │   └── b.txt
-   ├── ours/             # Our version (simulates current dev)
-   │   └── a.txt
-   ├── theirs/           # Their version (simulates incoming change)
-   │   └── b.txt
-   └── merged_output/    # Auto-created, stores final merged result
+│  ├── main.c            # Builds and merges trees, handles output
+│  ├── tree.c            # Tree creation, merging, helpers
+│  ├── tree.h            # Structs and function declarations
+│  ├── file_utils.c      # File reading and writing logic
+│  ├── file_utils.h
+│  ├── base/             # Base version of files
+│  │   ├── a.txt
+│  │   └── b.txt
+│  ├── ours/             # Our version (simulates current dev)
+│  │   └── a.txt
+│  ├── theirs/           # Their version (simulates incoming change)
+│  │   └── b.txt
+│  └── merged_output/    # Auto-created, stores final merged result
 ├── ort.png
 
 ```
