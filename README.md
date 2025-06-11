@@ -1,4 +1,6 @@
-# 🪵 ORT Merge Strategy in C
+# ORT Merge Strategy 
+
+![My Image](ort.png)
 
 This project is a C implementation of Git's **ORT (Optimized Recursive Three-Way)** merge strategy. It simulates how Git handles file merges during a `git merge`, resolving differences between a `base`, `ours`, and `theirs` version of a directory tree.
 
