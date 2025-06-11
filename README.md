@@ -6,26 +6,6 @@ This project is a C implementation of Git's **ORT (Optimized Recursive Three-Way
 
 ---
 
-## 📁 Directory Structure
-
-C-implementation/
-├── base/ # Base version of the tree
-│ ├── a.txt
-│ └── b.txt
-├── ours/ # Our version (edited)
-│ └── a.txt
-├── theirs/ # Their version (edited)
-│ └── b.txt
-├── merged_output/ # Final merged output created by the program
-├── tree.c # Tree data structure and merge logic
-├── tree.h
-├── file_utils.c # Directory reading + disk writing logic
-├── file_utils.h
-├── main.c # Entry point to the merge process
-├── README.md
-
----
-
 ## 🚀 What is ORT Strategy?
 
 ORT (Optimized Recursive Three-way) is Git's default and most efficient strategy for merging changes across three versions of a file/directory:
